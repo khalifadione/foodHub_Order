@@ -1,0 +1,29 @@
+
+
+.modalBackground-notifcm {
+    width: 167vw;
+    height: 95vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    z-index: 11;
+  }
+  
+  .modalContainer-notifcm{
+    width: 40vh;
+    height: 60vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  
+  
+  .titleCloseBtn-notifcm {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+

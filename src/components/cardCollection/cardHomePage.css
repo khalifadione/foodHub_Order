@@ -1,0 +1,36 @@
+.div-img-homePage{
+    height: 90vh;
+    background-image: url("/public/image/backSearch.jpg");
+    align-items: center;
+}
+
+#div-cardHomePage{
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.card-item-homePage{
+    border: 2px solid #1879ca;
+    background-color: white;
+    width: 65vh; /* 33.33% pour 3 items par ligne avec espacement de 20px */
+    height: 53vh;
+}
+
+.car-image-homePage{
+    /*size: "medium";
+    width: 55vh;
+    height: auto;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35vh;
+    width: 50vh;
+}
+
+
+
+

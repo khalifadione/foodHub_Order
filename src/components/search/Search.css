@@ -1,0 +1,140 @@
+
+.search-bar-nomRest {
+   width: 50vh;
+   height: 50px;
+   border: 2px solid #1879ca;
+   border-radius: 8px;
+}
+
+
+.bouton-rechercher{
+    width: 23vh;
+    height: 50px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    color: white;
+    margin-left: 1vh;
+}
+
+.card-item-notification {
+    background-color: red; /* Couleur de fond du cercle */
+    color: white; /* Couleur du texte dans le cercle */
+    border-radius: 50%; /* Pour rendre le span circulaire */
+    font-size: 15px;
+    position: absolute;
+    padding: 2px 8px;
+    top: 29%;
+  }
+
+.ecart{
+   margin-top: 25vh;
+}
+
+
+  /*#######################################*/
+
+  .div-menu-navbar-pc{
+    z-index: 10;
+    top: 0;
+    background: #1879ca;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("/public/image/backSearch.jpg");
+    gap: 20%;
+}
+
+.btn-deconnec-menu-pc{
+    border: 0px solid ;
+    background: red;
+    color: white;
+    height: 7vh;
+    width: 17vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.ul-navbar-pc{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+
+li{
+    padding : 20px;
+    
+}
+
+.a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover{
+    background: #1c6aa9;
+}
+
+
+
+.icone-notification{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #1879ca;
+    text-align: center;
+}
+
+
+
+
+.icone-notification:hover{
+    background-color: #1c6aa9;
+   
+}
+
+@media screen and (max-width : 767px) {
+
+    .ul-navbar{
+       display: none;
+    }
+
+    .ul-navbar-responsive-pc{
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .div-menu-navbar-pc{
+       
+       display: flex;
+       margin: 0;
+      justify-content: space-between;
+    }
+
+    
+
+
+     .btn-menu-accueil:hover{
+        background: #1c6aa9;
+     }    
+    
+}
+  

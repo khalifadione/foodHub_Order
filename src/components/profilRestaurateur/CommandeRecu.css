@@ -1,0 +1,19 @@
+.liste-de-commande{
+    display: flex;
+    width: 40vh;
+    justify-content: center;
+
+}
+
+.input-com-recu{
+    background-color: #1879ca;
+    border: #1879ca;
+    height: 25px;
+    color: white;
+}
+.btn-com-recu{
+    height: 25px;
+    background-color: red;
+    border: gray;
+    color: white;
+}

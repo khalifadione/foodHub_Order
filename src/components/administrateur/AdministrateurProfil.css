@@ -1,0 +1,132 @@
+.div-menu-navbar{
+    z-index: 1;
+    top: 0;
+    background: #1879ca;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-menu-accueil{
+   display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.ul-navbar{
+    background:  #1879ca;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+
+li{
+    padding : 20px;
+    
+}
+
+.a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover{
+    background: #1c6aa9;
+}
+
+.Explorer, .Explorer:hover{
+    text-decoration: none;
+    padding: 10px;
+    color: #1879ca;
+    background: white;
+    border-radius: 10px;
+}
+
+.Icone{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #1879ca;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+
+.Icone:hover{
+    color: white;
+    background-color: #1c6aa9;
+   
+}
+
+@media screen and (max-width : 767px) {
+
+    .ul-navbar{
+       display: none;
+    }
+
+    .ul-navbar-responsive{
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .div-menu-navbar{
+       
+       display: flex;
+       margin: 0;
+      justify-content: space-between;
+    }
+
+    .btn-menu-accueil{
+        display: block;
+        border: 0px solid ;
+        background: white;
+        border-radius: 5px;
+        color: #1879ca;
+        font-size: 20px;
+     }
+
+
+     .btn-menu-accueil:hover{
+        background: #1c6aa9;
+     }    
+    
+}
+
+
+@media screen and (max-width : 409px) {
+     .Explorer{
+        font-size: 8px;
+        text-align: center;
+     }
+}
+
+
+/*##################################################*/
+
+.App .openModalBtn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+  }

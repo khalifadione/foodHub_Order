@@ -1,0 +1,45 @@
+
+
+
+.modalBackground-bdclien {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    z-index: 2;
+  }
+  
+  .modalContainer-bdclien {
+    width: 95%;
+    height: 95%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  
+  
+  .titleCloseBtn-bdclien {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  
+  

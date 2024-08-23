@@ -1,0 +1,118 @@
+#div-form-connection-client{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#form-connection-client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.username, .password {
+    width: 40vh;
+    height: 40px;
+    border: 2px solid #1879ca;
+    border-radius: 8px;
+}
+img {
+    max-width: 50%;
+    height: auto;
+}
+.bouton-connexion {
+    width: 40vh;
+    height: 50px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: #000000;
+    color: white;
+}
+
+.div-createcmp-mdo{
+    display: flex;
+    justify-content: center;
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+.a-connextion{
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+}
+
+@media screen and (max-width : 609px) {
+    #div-form-connection-client{
+        display: flex;
+        flex-direction: column;
+    }
+    #form-connection-client{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+/*########################################################*/
+
+
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  
+  .modalContainer {
+    width: 80vh;
+    height: 80vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
